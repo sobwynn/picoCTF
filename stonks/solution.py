@@ -79,3 +79,5 @@ new = decoder(new)
 pattern = re.compile(r"[picoCTF{].*[}]")
 match = pattern.search(new)
 print(match.group(0))
+
+#SIMPLY PUT IN YOUR TERMINAL THE FOLLOWING COMMAND - "python3 (name_of_the_file).py -t (IP) -p (PORT) AND WAIT FOR THE FLAG TO BE RETURNED
